@@ -1,4 +1,4 @@
-# Octo-composer
+# Octo-composer [![Build Status](https://travis-ci.org/dkraczkowski/octo-composer.svg?branch=master)](https://travis-ci.org/dkraczkowski/octo-composer)
 octo-composer is a minimalistic stand-alone middleware composing library for node.js.
 
 # Installation

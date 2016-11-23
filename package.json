@@ -1,13 +1,14 @@
 {
   "name": "octo-composer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "octo-composer is a minimalistic yet powerfull middleware composing library for node.js.",
   "main": "./lib/src/octo-compser.js",
   "scripts": {
     "build": "node_modules/.bin/babel src/ -d lib/src && node_modules/.bin/babel test/ -d lib/test",
     "test-spec": "mocha lib/**/*.test.js -R spec --bail",
     "test-cov": "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- lib/**/*.test.js -R spec --bail",
-    "test": "npm run build && npm run test-cov"
+    "test": "npm run build && npm run test-cov",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
